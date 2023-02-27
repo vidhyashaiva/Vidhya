@@ -1,0 +1,11 @@
+12.Avg of Array
+
+
+function getAverage(marks){
+  var sum = 0;
+  
+  for (var i in marks)
+    sum += marks[i];
+  
+  return parseInt(sum / marks.length);
+}

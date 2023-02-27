@@ -1,0 +1,6 @@
+21.Hero vs dragons
+
+
+function hero(bullets, dragons){
+  return bullets >= dragons * 2
+}

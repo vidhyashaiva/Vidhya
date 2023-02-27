@@ -1,0 +1,6 @@
+17.String repeat
+
+
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
